@@ -4,7 +4,7 @@ PIXI的调用方式，看起来比较冗余不太美观，一般用别名处理
 
 #### — Application 或者 Renderer， 两者属性一样  `(autoDetectRenderer可根据根据客户端的支持度自动创建WebGL或者Canvas, CanvasRenderer, WebGLRenderer分别创建Canvas和WebGL)`
 
-```json
+```javascript
   创建渲染层, 可接受的参数有四个，前两个是为图层的宽高，第三个为可选参数,第四个为是否强制canvas渲染
 
   ### example
@@ -45,7 +45,7 @@ PIXI的调用方式，看起来比较冗余不太美观，一般用别名处理
 
 ### — Sprite (精灵元素) 
 
-```json
+```javascript
 - PIXI.Sprite.fromImage()  由图片直接创建精灵
 - PIXI.Texture.fromImage() 由材质创建精灵
 - PIXI.loader.add().load()  先加载图片，在load里面获取所加载的图片资源
