@@ -4,7 +4,7 @@ const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
   entry: {
-    "pixi-learn-2": ["./pixi-learn-2/pixi-learn-2.js"]
+    "pixi-learn-3": ["./pixi-learn-2/pixi-learn-3.js"]
   },
   output: {
     path: path.resolve(__dirname, "build"),
