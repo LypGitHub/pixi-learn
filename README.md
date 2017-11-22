@@ -32,7 +32,7 @@ PIXI的调用方式，看起来比较冗余不太美观，一般用别名处理
 
 ### — Container （创建舞台在画布上，作为一个根容器）
 
-```json
+```javascript
 一般来说直接在渲染层上面渲染也是可以的，但是我不。。
 创建容器(舞台)在渲染层是为了分层管理动画或者元素
 ### example
@@ -75,12 +75,12 @@ function setup () {
   renderer.render(stage)
 }
 /**
-     * 加载过程
-     *
-     * @param {Object} loader 加载对象
-     * @param {Object} resource 资源
-     * @returns {void}
-     */
+ * 加载过程
+ *
+ * @param {Object} loader 加载对象
+ * @param {Object} resource 资源
+ * @returns {void}
+ */
 function loadProgressHandler (loader, resource) {
   // loader.progress, resource.name, resource.url
   // do something here
