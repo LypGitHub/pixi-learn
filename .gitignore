@@ -3,3 +3,4 @@ build/
 yarn.lock
 .idea
 .DS_Store
+vue-demo/node_modules
